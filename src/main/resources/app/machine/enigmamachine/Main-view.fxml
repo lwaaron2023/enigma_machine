@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/21.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.machine.enigmamachine.MainController">
+   <children>
+      <Pane fx:id="MainMenu" layoutX="28.0" layoutY="14.0" prefHeight="678.0" prefWidth="693.0">
+         <children>
+            <TextField fx:id="TFM2" layoutX="230.0" layoutY="198.0" />
+            <Button fx:id="BM3" layoutX="460.0" layoutY="198.0" mnemonicParsing="false" onAction="#onButtonClick" text="Select" />
+            <Button fx:id="BM2" layoutX="393.0" layoutY="198.0" mnemonicParsing="false" onAction="#onButtonClick" text="Reset" />
+            <Text layoutX="129.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File To Encrypt/Decrypt" wrappingWidth="92.80336570739746" />
+            <TextField fx:id="TFM3" layoutX="230.0" layoutY="257.0" />
+            <Button fx:id="BM5" layoutX="460.0" layoutY="257.0" mnemonicParsing="false" onAction="#onButtonClick" text="Select" />
+            <Button fx:id="BM4" layoutX="393.0" layoutY="257.0" mnemonicParsing="false" onAction="#onButtonClick" text="Reset" />
+            <Text layoutX="129.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Directory To Save To" wrappingWidth="83.47005271911621" />
+            <TextField fx:id="TFM1" layoutX="230.0" layoutY="144.0" />
+            <Text layoutX="129.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Key (In Integer Form)" wrappingWidth="83.47005271911621" />
+            <Text fx:id="TM2" fill="#c92318" layoutX="134.0" layoutY="660.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="368.1367244720459" />
+            <Button fx:id="BM1" layoutX="395.0" layoutY="144.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="25.0" prefWidth="116.0" text="Generate Random" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="18.0" layoutX="271.0" layoutY="49.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="18.0" layoutX="268.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="49.0" layoutX="347.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Polygon fill="DODGERBLUE" layoutX="343.0" layoutY="136.0" points="-16.000015258789062, -31.50000762939453, 3.999969482421875, -7.000007629394531, -18.000015258789062, -56.00000762939453" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="DODGERBLUE" layoutX="363.0" layoutY="160.0" points="-16.0, -31.00000762939453, -38.00001525878906, -80.00000762939453, -16.0, -56.666664123535156" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="DODGERBLUE" layoutX="328.0" layoutY="104.0" points="-18.999984741210938, -20.333335876464844, -3.0000152587890625, -20.333335876464844, -3.0000152587890625, -35.999996185302734" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="DODGERBLUE" layoutX="328.0" layoutY="58.0" points="-21.333328247070312, -27.666669845581055, -3.0000152587890625, -27.666669845581055, -3.0000152587890625, -14.333332061767578" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="18.0" layoutX="268.0" layoutY="17.0" stroke="BLACK" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="81.0" layoutX="268.0" layoutY="17.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="49.0" layoutX="309.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Button fx:id="BM6" layoutX="113.0" layoutY="310.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="25.0" prefWidth="181.0" text="Encrypt" />
+            <Button fx:id="BM7" layoutX="347.0" layoutY="310.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="25.0" prefWidth="181.0" text="Decrypt" />
+            <TextFlow layoutX="114.0" layoutY="351.0" prefHeight="296.0" prefWidth="420.0">
+               <children>
+                  <Text fx:id="TM1" fill="#183cc7" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="368.1367244720459" />
+               </children>
+            </TextFlow>
+         </children>
+      </Pane>
+      <Pane fx:id="DirectoryMenu" layoutX="28.0" layoutY="14.0" prefHeight="678.0" prefWidth="693.0" visible="false">
+         <children>
+            <TextField fx:id="TFD1" editable="false" layoutX="104.0" layoutY="11.0" prefHeight="25.0" prefWidth="581.0" promptText="Enter Starting Path Here" />
+            <Button fx:id="BD4" layoutX="291.0" layoutY="639.0" mnemonicParsing="false" onAction="#onButtonClick" text="Enter Directory" />
+            <Button fx:id="BD2" layoutX="90.0" layoutY="639.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="25.0" prefWidth="59.0" text="Down" />
+            <Button fx:id="BD1" layoutX="9.0" layoutY="639.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="25.0" prefWidth="59.0" text="Up" />
+            <TextFlow layoutX="14.0" layoutY="91.0" prefHeight="531.0" prefWidth="671.0">
+               <children>
+                  <Text fx:id="TD1" strokeType="OUTSIDE" strokeWidth="0.0" />
+               </children>
+            </TextFlow>
+            <Button fx:id="BD5" layoutX="404.0" layoutY="639.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="25.0" prefWidth="281.0" text="Submit" />
+            <Button fx:id="BD3" layoutX="179.0" layoutY="639.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="25.0" prefWidth="95.0" text="Exit Directory" />
+            <Text layoutX="9.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Directory" wrappingWidth="95.04882812500011" />
+            <TextField fx:id="TFD2" editable="false" layoutX="104.0" layoutY="51.0" prefHeight="25.0" prefWidth="581.0" promptText="Enter Starting Path Here" />
+            <Text fx:id="TD2" layoutX="9.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current File" wrappingWidth="95.04882812500011" />
+         </children>
+      </Pane>
+
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</AnchorPane>
