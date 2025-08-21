@@ -10,7 +10,7 @@ Execute the EnigmaMachine.jar file in the **out** directory
 
 1. After opening you can enter into the top text box a key, or simply press the generate random button. 
 
-*NOTE: keys can only be integer values. The higher the key, the more time and resources the system will use. It is recommended to use keys that are less than 10000.
+***NOTE:*** keys can only be integer values. The higher the key, the more time and resources the system will use. It is recommended to use keys that are less than 10000.
 
 2. Next you can either type the filepath of the file whom you want to decrypt or encrypt, or go into the select file menu by clicking the select button to the right of the text box.
 
