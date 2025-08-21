@@ -14,15 +14,15 @@ Execute the EnigmaMachine.jar file in the **out** directory
 
 2. Next you can either type the filepath of the file whom you want to decrypt or encrypt, or go into the select file menu by clicking the select button to the right of the text box.
 
-2a. To navigate the selection menu simply click the up, down, enter, and exit buttons. 
+  - To navigate the selection menu simply click the up, down, enter, and exit buttons. 
 
-2b. When the cursor is over the file you want to select the Current File field should display the filepath.
+  - When the cursor is over the file you want to select the Current File field should display the filepath.
 
 3. Next you can either type the filepath of the directory whom you want to store the new file, or go into the select directory meny by clicking the select bytton to the right of the text box.
 
-3a. To navigate the selection menu simply click the up, down, enter, and exit buttons. 
+  - To navigate the selection menu simply click the up, down, enter, and exit buttons. 
 
-3b. When the cursor is over the directory you want to select the Current Directory field should display the filepath.
+  - When the cursor is over the directory you want to select the Current Directory field should display the filepath.
 
 4. Finally, to encrypt simply press the encrypt button, or to decrypt press the decrypt button.
 
